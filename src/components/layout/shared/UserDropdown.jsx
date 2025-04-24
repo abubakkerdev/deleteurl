@@ -110,7 +110,8 @@ const UserDropdown = () => {
                     </div>
                   </div>
                   <Divider className='mlb-1' />
-                  <MenuItem className='gap-3 mli-2' onClick={e => handleDropdownClose(e)}>
+             
+                  <MenuItem className='gap-3 mli-2' onClick={e => handleDropdownClose(e, '/user-account')}>
                     <i className='tabler-user' />
                     <Typography color='text.primary'>My Profile</Typography>
                   </MenuItem>
